@@ -1,7 +1,6 @@
-This folder contains a few scripts that were used in order to create the back end database for all Division 2 East statistics which has been the basis for other utilities and analysis.
+This folder contains a few scripts that were used in order to create the back end database for all Division 2 East statistics. These stats have been the basis for most of the other utilities and analysis in this repository.
 
 The creation of the database has been split into the three python files seen above:
-
 
 - D2East_MySQL.py, which handles reading from and writing to the database using mysql.connector
 - D2EastWebScrape.py, which scrapes box scores from the ECC, CACC, and NE10 websites using urllib.request and BeautifulSoup 4
